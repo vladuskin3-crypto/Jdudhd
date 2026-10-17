@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 load_dotenv()
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8778580583:AAHUjcjXlgQZt19Rb3w79YR0Q1iF0MDmXl0")
 CHIME_CHANCE = float(os.getenv("CHIME_CHANCE", "0.04"))  # шанс, что Владик сам вставит реплику
 CHIME_COOLDOWN = 120  # секунд между самопроизвольными репликами в одном чате
 BOT_NAME = "Владик"
